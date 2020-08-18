@@ -1,0 +1,13 @@
+/*Create a for loop that prints out the following numbers: 
+5 10 15 20 25 30 35 40 45 50. Note! Use range and step.
+
+  */
+
+
+//My Solution
+
+fun main(args: Array<String>){
+   for (i in 5..50 step 5){
+       print("$i ")
+   }
+}

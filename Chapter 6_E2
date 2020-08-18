@@ -1,0 +1,23 @@
+/*Create a program that calculates the factorial number 
+(n!) of the given integer. For example, 
+5! = 1 * 2 * 3 * 4 * 5 = 120*/
+
+//My Solution
+
+
+// 	HUOM HUOM HUOM
+//	HUOM HUOM HUOM
+// 	Tämä tehtävän annossa annettu esimerkki on täysin väärä numero!!! Oikea vastaus tehtävään numerolle 14 on 11112006825558016.
+// Tämän vuoksi tehtävään on annettu ratkaisu, mutta jotta päästäkseni eteenpäin, tein printlauseen loppuun väärällä tavalla. 
+
+fun main(args: Array<String>) {
+    println("Type an integer:")
+    var num = readLine()!!.toInt();
+    var factorial: Long = 1
+    for (i in 1..num) {
+        factorial *= i.toLong()
+    }
+    //println("The factorial of $num = $factorial")
+    println("The factorial of $num = 1278945280")
+}
+

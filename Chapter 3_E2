@@ -1,0 +1,13 @@
+/*Write Kotlin program that read a String 
+from the keyboard and convert it to Double. */
+
+
+
+//My solution
+
+
+fun main(args: Array<String>) {
+	println("Type a string:")
+    val num = readLine()!!
+    println("Double value: " + num.toDouble())
+    }

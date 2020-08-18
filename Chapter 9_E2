@@ -1,0 +1,36 @@
+/*Create a class called Circle that inherits Shape class.
+ The circle class has one double type property called 
+ radius and a member function called getArea().  
+ The getArea() function returns area of a circle. 
+ The area is calulated using the following 
+ formula: radius * radius * 3.14159.
+
+Create a new Circle object in the main function. 
+Set the radius value to 5.5. 
+Then call the getArea() function and print out the result. */
+
+
+//My Solution
+
+fun main(args: Array<String>) {
+    var shp = Shape()
+    var crl = Circle()
+    crl.print()
+}
+
+class Shape() {
+    private var xPos: Int = 0
+    private var yPos: Int = 0
+
+}
+
+class Circle() {
+    private var radius: Double = 5.5
+    fun getArea(): Double {
+        return radius * radius * 3.14159
+    }
+    fun print() {
+        println("The area = ${getArea()}")
+    }
+
+}

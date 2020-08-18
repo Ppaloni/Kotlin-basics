@@ -1,0 +1,19 @@
+/*Create a list that contains the following strings: 
+"Kotlin", "Programming", "String", "List", "Algorithm" 
+and name it words. 
+Create a new array using the filter() function to the 
+words array. 
+New array contain words where the length is less than 7 
+characters. 
+Print the content of the new array by using toString() 
+function.
+
+ */
+
+ //My Solution
+
+ fun main(args : Array<String>) {
+  val words = mutableListOf("Kotlin", "Programming", "String", "List", "Algorithm")
+  val filteredWords = words.filter{ it.length < 7 }
+  println(filteredWords.toString())
+}

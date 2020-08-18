@@ -1,0 +1,31 @@
+
+/*Create a class called Shape inside the 
+com.viope.app package. The shape class has primary 
+constructor and two integer properties: xPos and yPos.
+The intial values of the both properties is zero. 
+The class have also one member function called print() 
+that prints the position.
+
+Create ShapeApp file that contains the main function 
+that creates one object from the Shape class and 
+prints its position. */
+
+//My Solution
+
+fun main(args: Array<String>) {
+  // Create an object
+  var shp = Shape()
+  shp.print()
+}
+
+class Shape() {
+  // Class properties
+  private var xPos: Int = 0
+  private var yPos: Int = 0
+
+
+  
+  fun print() {
+    println("Position: x=$xPos, y=$yPos")
+  }
+}

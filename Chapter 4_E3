@@ -1,0 +1,20 @@
+/*Create an array that contains the following names: 
+Mary, Paul, Jane, Phil, John, Jane, Paul, Anthony, Mary. 
+The program prints the amount of distinct names. 
+It also prints the first and the last names in the 
+alphabetical order.
+ */
+
+ // My Solution
+ 
+ fun main(args: Array<String>) {
+   val nimet= arrayOf<String>("Mary", "Paul", "Jane", "Phil", "John", "Jane",
+       "Paul", "Anthony", "Mary")
+    nimet.sort()
+    val dnimet = nimet.distinct()
+    val count = dnimet.count()
+    val first = dnimet.first()
+    val last =dnimet.last()
+    println("There is $count distinct names")
+    println("The first in the alphabetical order is $first")
+    println("The last in the alphabetical order is $last")

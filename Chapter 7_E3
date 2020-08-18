@@ -1,0 +1,26 @@
+/*Create a function called printGreeting that takes 
+one string typed argument (firstName) and it prints 
+out a Hello greeting. Override the printGreeting 
+function that it can also take two arguments firstName 
+and lastName. Call the both functions using 
+firstName = John and lastName = Johnson values. */
+
+//My Solution
+
+
+fun main(args: Array<String>) {
+    // Call the first sum function
+    val firstname = "John "
+    val lastname = "Johnson"
+    println("Hello " + printGreeting(firstname))
+    // Call the second sum function )
+    println("Hello " + printGreeting(firstname, lastname))
+}
+
+fun printGreeting(firstname: String): String {
+    return firstname
+}
+
+fun printGreeting(firstname: String, lastname: String): String {
+    return firstname + lastname
+}

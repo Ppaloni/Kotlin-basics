@@ -1,0 +1,14 @@
+/*Create an array of strings with the following values 
+["One", "Two", "Three", "Four", "Five"]. 
+Print out the second element of the array. */
+
+
+//My solution
+
+
+
+    fun main(args: Array<String>) {
+
+        var numerolista = arrayOf("One", "Two", "Three", "Four", "Five")
+        println(numerolista[1])
+    }

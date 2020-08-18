@@ -1,0 +1,35 @@
+/*Create a program that asks three integers from a user. 
+Create a function that takes three integers as arguments 
+and returns the value of the largest one 
+(The function name is findMax). 
+The function is invoked in the main function with the 
+values that was entered. */
+
+
+//My Solution
+
+
+fun main(args: Array<String>) {
+
+
+    println("Type the first integer:")
+    var num1 = readLine()!!.toInt()
+    println("Type the second integer:")
+    var num2 = readLine()!!.toInt()
+    println("Type the third integer:")
+    var num3 = readLine()!!.toInt()
+    println("The largest one is: " + findMax(num1, num2, num3))
+
+}
+
+fun findMax(num1: Int, num2: Int, num3: Int): Int{
+    if ((num1 > num2) && (num1 > num3)) {
+        return num1
+    }
+    else if ((num2 > num1) && (num2 > num3)){
+        return num2
+    }
+    else {
+        return num3
+    }
+}

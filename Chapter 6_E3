@@ -1,0 +1,16 @@
+/*Create an array with the following values: 
+11, 16, 7, 8, 14, 5, 9, 3. 
+The program calculates the average of the numbers in the array. Note! 
+The average is floating point number. */
+
+
+//My Solution
+
+fun main(args : Array<String>) {
+    val nums = arrayOf(11, 16, 7, 8, 14, 5, 9, 3)
+
+    val avg = nums.average()
+
+    println("Average = $avg.toFloat()")
+}
+

@@ -1,0 +1,16 @@
+/*Create an array of integers with the following values [0, 3, 6, 9]. 
+Use the Array class constructor. 
+Print the first and the last elements of the array. */
+
+
+
+
+//My solution
+
+
+
+    fun main(args: Array<String>) {
+
+        var numerolista = arrayOf("One", "Two", "Three", "Four", "Five")
+        println(numerolista[1])
+    }

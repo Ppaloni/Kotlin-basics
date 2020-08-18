@@ -1,0 +1,19 @@
+
+/*Create the enum class called Priority. 
+The class has the following constants: LOW, MEDIUM, HIGH.
+ Print the values and ordinals in the main function. */
+
+//My Solution
+
+fun main(args : Array<String>) {
+  for (Priority in Priority.values()) {
+    println("${Priority.ordinal} : ${Priority.name}")
+  }
+}
+
+enum class Priority {
+  LOW,
+  MEDIUM,
+  HIGH
+  
+}

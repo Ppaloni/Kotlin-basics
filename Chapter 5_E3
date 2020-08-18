@@ -1,0 +1,35 @@
+/*
+Create Kotlin program that asks month number and 
+prints the correct month name using the when. 
+Use Java Scanner class for the user input.  */
+
+
+
+//My Solution
+
+import java.util.Scanner
+
+fun main(args: Array<String>) {
+    //Kysytään numeroa scanneria käyttäen
+
+
+
+    var number = Scanner(System.`in`)
+    println("Type a month number (1-12)")
+    var month:Int = number.nextInt()
+    when(month) {
+        1 -> println("January")
+        2 -> println("February")
+        3 -> println("March")
+        4 -> println("April")
+        5 -> println("May")
+        6 -> println("June")
+        7 -> println("July")
+        8 -> println("August")
+        9 -> println("September")
+        10 -> println("October")
+        11 -> println("November")
+        12 -> println("December")
+
+        else -> println("Enter a number between 1 and 12")
+    }

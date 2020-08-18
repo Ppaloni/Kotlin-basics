@@ -1,0 +1,19 @@
+/*Create a program that ask user to type two integers. 
+The program calculates the sum, subtraction and multiplication 
+of typed numbers and prints out the results. 
+Use string templates for the printing. */
+
+// My solution
+
+
+
+fun main(args: Array<String>) {
+
+    println("Type an integer #1:")
+    val num1 = readLine()!!.toInt()
+    println("Type an integer #2:")
+    val num2 = readLine()!!.toInt()
+    println("$num1 + $num2 = ${num1 + num2}")
+    println("$num1 - $num2 = ${num1 - num2}")
+    println("$num1 * $num2 = ${num1 * num2}")
+}

@@ -1,0 +1,23 @@
+/*Create a program that ask user to type words. 
+The program execution stops when a user types letter 'x'. 
+Finally, program prints the number of words. */
+
+//My Solution
+
+fun main(args: Array<String>) {
+    var input =  ""
+
+    //Laitetaan countti alkaamaan -1 koska ei haluta laskea lopussa annettavaa "x" lukumäärään.
+    var count = -1
+    while (input != "x") {
+        println("Type a word (Type x to exit)")
+        input = readLine()!!.toString()
+        count++
+        if (input == "x")
+
+            break
+
+    }
+    println("You typed $count words")
+}
+

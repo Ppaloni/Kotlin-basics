@@ -1,0 +1,25 @@
+/*Create a function that returns true if the number is 
+even and false if the number is odd. 
+The name of the funtion is isEven. In the main function, 
+user will be asked to type an integer and the output will be text Even or Odd.
+
+Tip! You can use modulus (%) operator to check is the 
+numer is odd or even. (n % 2) is 0 if the number is even. */ 
+
+
+//My Solution
+
+fun main(args: Array<String>) {
+    println("Type an integer:")
+    var num1 = readLine()!!.toInt()
+    println (isEven(num1))
+}
+
+fun isEven(num1: Int): String  {
+    if (num1 % 2 == 0){
+    return ("Even")}
+    else
+    {
+        return ("Odd")
+    }
+    }

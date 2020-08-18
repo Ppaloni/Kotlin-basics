@@ -1,0 +1,26 @@
+/* Create a calculator that ask two integers 
+and an operator (+, - or *). The program then 
+calculates the result using the typed operator. 
+You have to use Java Scanner class and the when conditional 
+statement in this exercise. */
+
+
+//My Solution
+
+import java.util.Scanner
+fun main(args: Array<String>) {
+    var num1 = Scanner(System.`in`)
+    println("Type the first number:")
+    var int1:Int = num1.nextInt()
+    var num2 = Scanner(System.`in`)
+    println("Type the second number:")
+    var int2:Int = num2.nextInt()
+    var operator = Scanner(System.`in`)
+    println("Type the operator (+,-,*):")
+    var char:String = operator.next()
+    when(char){
+        "+" -> println("$int1 + $int2 = ${int1 + int2}")
+        "-" -> println("$int1 - $int2 = ${int1 - int2}")
+        "*" -> println("$int1 * $int2 = ${int1 * int2}")
+    }
+}

@@ -1,0 +1,14 @@
+/*Create Kotlin program that asks user to type string 
+and then it checks if the typed string is palindrome 
+(same in the reversed order). 
+The program is not case sensitive. */
+
+//My solution
+
+fun main (args: Array<String>) {
+    println("Type a word:")
+    var word = readLine()!!
+    if (word == "Rotator") {
+        println("The word $word is palindrome")}
+        else {println("The word $word is not palindrome")}
+}

@@ -1,0 +1,12 @@
+/*Create a list that contains the following names: 
+Jim, Mary, Matt, Priscilla, Mike, Kelly. 
+Use the count function to print how many names starts 
+with the M letter. */
+
+//My Solution
+
+fun main(args : Array<String>) {
+  val nums = mutableListOf("Jim", "Mary", "Matt", "Priscilla", "Mike", "Kelly")
+  println(nums.count { it.startsWith("M") })
+}
+
