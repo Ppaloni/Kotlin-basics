@@ -1,6 +1,6 @@
-/*Create an array of integers with the following values [0, 3, 6, 9]. 
-Use the Array class constructor. 
-Print the first and the last elements of the array. */
+/*Create a program that intialize two String variables: firstName and lastName. 
+The value of the firstName is Kate and lastName is Hudson.
+The program prints the intials of the name variables. */
 
 
 
@@ -9,8 +9,9 @@ Print the first and the last elements of the array. */
 
 
 
-    fun main(args: Array<String>) {
-
-        var numerolista = arrayOf("One", "Two", "Three", "Four", "Five")
-        println(numerolista[1])
-    }
+fun main(args: Array<String>) {
+    var firstName: String = "Kate";
+    var firstNameChar = firstName[0];
+    var lastName: String = "Hudson";
+    var lastNameChar = lastName[0];
+    println("Your initials: " + "$firstNameChar" + "." + "$lastNameChar")}
